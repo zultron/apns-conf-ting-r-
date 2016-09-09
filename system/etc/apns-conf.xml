@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!--
+APN database for Ting, RingPlus and Sprint support
+
+Sprint entries taken from CM12; Ting and RingPlus constructed from
+various Internet sources.
+
+Compiled by John Morris <john@zultron.com> 2016-09
+
+-->
+
+<apns version="8">
+  <apn name="CDMA"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="0"
+       mmsproxy=""
+       mmsport=""
+       mmsc=""
+       type="default,supl"
+       />
+  <apn name="CDMA"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="1"
+       mmsproxy=""
+       mmsport=""
+       mmsc="http://mms.sprintpcs.com"
+       type="default,supl"
+       />
+  <apn name="Sprint EHRPD internet"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="n.ispsn"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.sprintpcs.com"
+       type="default,mms,supl,hipri"
+       protocol="IP"
+       roaming_protocol="IP"
+       />
+  <apn name="Sprint EHRPD ota"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="otasn"
+       mmsproxy=""
+       mmsport=""
+       type="fota"
+       protocol="IP"
+       roaming_protocol="IP"
+       />
+  <apn name="Sprint LTE ota"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="otasn"
+       mmsproxy=""
+       mmsport=""
+       type="fota"
+       protocol="IP"
+       roaming_protocol="IP"
+       />
+  <apn name="Sprint LTE internet"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="n.ispsn"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.sprintpcs.com"
+       type="default,mms,supl,hipri"
+       protocol="IP"
+       roaming_protocol="IP"
+       />
+  <apn name="Sprint internet"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="n.ispsn"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.sprintpcs.com"
+       type="mms,supl,hipri"
+       protocol="IP"
+       roaming_protocol="IP"
+       />
+  <apn name="Sprint MMS"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="Sprint"
+       user="Sprint"
+       password="*"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.sprintpcs.com"
+       type="mms"
+       />
+  <apn name="Ting"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="n.t8.ispsn"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.plspictures.com"
+       type="default,supl,mms,hipri"
+       />
+  <apn name="RingPlus"
+       numeric="310120"
+       mcc="310"
+       mnc="120"
+       apn="n.r5.ispsn"
+       mmsproxy="68.28.31.7"
+       mmsport="80"
+       mmsc="http://mms.plspictures.com"
+       type="default,supl,mms,hipri"
+       />
+</apns>

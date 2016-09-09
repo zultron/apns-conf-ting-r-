@@ -1,0 +1,13 @@
+APN database for Ting, RingPlus and Sprint support
+
+Sprint entries taken from CM12; Ting and RingPlus constructed from
+various Internet sources.
+
+Updater script cobbled together from other Internet examples.
+
+Compiled by John Morris <john@zultron.com> 2016-09
+
+Create a zip file for install in TWRP:
+
+    rm -f apns-conf-ting-r+.zip
+    zip -r apns-conf-ting-r+.zip META-INF/ system/ README

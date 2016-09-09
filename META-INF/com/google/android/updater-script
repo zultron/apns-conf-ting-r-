@@ -1,0 +1,20 @@
+ui_print("Mounting system...");
+run_program("/sbin/busybox", "mount", "/system");
+
+ifelse(
+    run_program("/sbin/test", "-f", "/system/etc/apns-conf.xml.bak") == 0,
+    (ui_print("/system/etc/apns-conf.xml.bak exists; not backing up APNs");
+    ),
+    (ui_print("Backing up APNs from /system/etc/apns-conf.xml to [...].bak");
+     run_program("/sbin/busybox", "cp", "/system/etc/apns-conf.xml",
+     		 "/system/etc/apns-conf.xml.bak");
+    )
+);
+
+ui_print("Installing Ting and RingPlus APNs into /system/etc/apns-conf.xml...");
+package_extract_dir("system", "/system");
+
+ui_print("Unmounting system...");
+run_program("/sbin/busybox", "umount", "/system");
+
+ui_print("Done!");
