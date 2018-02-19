@@ -17,3 +17,5 @@ Compiled by John Morris <john@zultron.com> 2016-09
   - Choices should reflect contents of `system/etc/apns-conf.xml`
 - Choose your carrier
 
+If MMS doesn't work from the system messaging app, try a different
+app such as Textra.
