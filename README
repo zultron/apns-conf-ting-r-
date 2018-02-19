@@ -7,7 +7,13 @@ Updater script cobbled together from other Internet examples.
 
 Compiled by John Morris <john@zultron.com> 2016-09
 
-Create a zip file for install in TWRP:
+- Create a zip file for install in TWRP:
 
     rm -f apns-conf-ting-r+.zip
     zip -r apns-conf-ting-r+.zip META-INF/ system/ README
+
+- Install zip file using recovery and boot into system
+- In "Access Point Names" settings, choose "Reset to default" from menu
+  - Choices should reflect contents of `system/etc/apns-conf.xml`
+- Choose your carrier
+
