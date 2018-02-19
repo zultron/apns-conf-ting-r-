@@ -10,7 +10,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
 -->
 
 <apns version="8">
-  <apn name="CDMA"
+  <apn carrier="CDMA"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -20,7 +20,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        mmsc=""
        type="default,supl"
        />
-  <apn name="CDMA"
+  <apn carrier="CDMA"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -30,7 +30,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        mmsc="http://mms.sprintpcs.com"
        type="default,supl"
        />
-  <apn name="Sprint EHRPD internet"
+  <apn carrier="Sprint EHRPD internet"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -42,7 +42,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        protocol="IP"
        roaming_protocol="IP"
        />
-  <apn name="Sprint EHRPD ota"
+  <apn carrier="Sprint EHRPD ota"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -53,7 +53,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        protocol="IP"
        roaming_protocol="IP"
        />
-  <apn name="Sprint LTE ota"
+  <apn carrier="Sprint LTE ota"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -64,7 +64,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        protocol="IP"
        roaming_protocol="IP"
        />
-  <apn name="Sprint LTE internet"
+  <apn carrier="Sprint LTE internet"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -76,7 +76,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        protocol="IP"
        roaming_protocol="IP"
        />
-  <apn name="Sprint internet"
+  <apn carrier="Sprint internet"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -88,7 +88,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        protocol="IP"
        roaming_protocol="IP"
        />
-  <apn name="Sprint MMS"
+  <apn carrier="Sprint MMS"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -100,7 +100,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        mmsc="http://mms.sprintpcs.com"
        type="mms"
        />
-  <apn name="Ting"
+  <apn carrier="Ting"
        numeric="310120"
        mcc="310"
        mnc="120"
@@ -110,7 +110,7 @@ Compiled by John Morris <john@zultron.com> 2016-09
        mmsc="http://mms.plspictures.com"
        type="default,supl,mms,hipri"
        />
-  <apn name="RingPlus"
+  <apn carrier="RingPlus"
        numeric="310120"
        mcc="310"
        mnc="120"
